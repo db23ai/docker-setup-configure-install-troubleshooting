@@ -1,14 +1,14 @@
-# Container ( Docker )
+# Docker Container 
 
 How to install buidkitd on Centos 7.9
 
-# Download binaries using Firefox on Virtual Machine
+1. Download binaries using Firefox on Virtual Machine
 
 Open Firefox Browser and copy-paste the below URL
 
 https://github.com/moby/buildkit/releases/download/v0.12.1/buildkit-v0.12.1.linux-amd64.tar.gz
 
-# Extract binaries and move under /usr/local/bin directory
+2. Extract binaries and move under /usr/local/bin directory
 
 su - centos
 
@@ -20,7 +20,7 @@ sudo su -
 
 cp -pr /home/centos/Downloads/bin/* /usr/local/bin/
 
-# Start service buildkitd
+3. Start service buildkitd
 
 sudo buildkitd
 
@@ -28,7 +28,7 @@ OR
 
 nohup buildkitd &  # It will run in the background
 
-# Open new terminal and run command
+4. Open new terminal and run command
 
 login as the root user
 
@@ -38,12 +38,12 @@ mkdir ctx; touch Dockerfile
 vi Dockerfile
 FROM oraclelinux:8
 
-# Execute the below command to test the "nerdctl build" command
+5. Execute the below command to test the "nerdctl build" command
 
 nerdctl build -t foo /tmp/ctx
 
 
-Reference :  https://github.com/moby/buildkit
+6. Reference :  https://github.com/moby/buildkit
 
 
 

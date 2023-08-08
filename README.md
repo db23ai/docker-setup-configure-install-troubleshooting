@@ -37,17 +37,13 @@ mkdir ctx; touch Dockerfile
 
 vi Dockerfile
 FROM oraclelinux:8
-# save file :wq
-
 
 # Execute the below command to test the "nerdctl build" command
 
 nerdctl build -t foo /tmp/ctx
 
 
-Reference :
-
-https://github.com/moby/buildkit
+Reference :  https://github.com/moby/buildkit
 
 
 

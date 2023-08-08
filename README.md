@@ -26,7 +26,7 @@ How to install buidkitd on Centos 7.9
 
     OR
 
-    nohup buildkitd &  # It will run in the background
+    nohup buildkitd  &                               
 
 4. Open new terminal and run command
 

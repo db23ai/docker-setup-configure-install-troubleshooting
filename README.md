@@ -1,9 +1,8 @@
 # Docker Container 
 
+nerdctl features and commands are almost identical as Docker CLI. nerdctl also supports several cutting-edge features of containerd that are not present in Docker. nerdctl supports features like, lazy-pulling (stargz) and running encrypted images (ocicrypt) which are not yet supported with Docker CLI.
+
 How to install buidkitd on Centos 7.9
-
--- nerdctl features and commands are almost identical as Docker CLI. nerdctl also supports several cutting-edge features of containerd that are not present in Docker. nerdctl supports features like, lazy-pulling (stargz) and running encrypted images (ocicrypt) which are not yet supported with Docker CLI.
-
 
 1. Download binaries using Firefox on Virtual Machine
 

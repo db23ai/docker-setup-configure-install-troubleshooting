@@ -28,13 +28,9 @@ How to install buidkitd on Centos 7.9
 
 4. Start service buildkitd
 
-    sudo buildkitd
-
-    OR
-
     nohup buildkitd  &                               
 
-5. Open new terminal and run command
+5. Create Dockerfile under /tmp directory
 
     login as the root user
 

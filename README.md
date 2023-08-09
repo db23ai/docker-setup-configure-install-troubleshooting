@@ -37,16 +37,18 @@ How to install buidkitd on Centos 7.9
     cd /tmp; mkdir ctx; touch Dockerfile
 
     vi Dockerfile
-   
     FROM oraclelinux:8
+
     :wq
+   
     
-6. Execute the below command to test the "nerdctl build" command
+    
+7. Execute the below command to test the "nerdctl build" command
 
     nerdctl build -t foo /tmp/ctx
 
 
-7. Reference :  https://github.com/moby/buildkit
+8. Reference :  https://github.com/moby/buildkit
 
 Above solution for below Error :
 

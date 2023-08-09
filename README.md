@@ -48,6 +48,14 @@ How to install buidkitd on Centos 7.9
 
 7. Reference :  https://github.com/moby/buildkit
 
+Above solution for below Error :
+
+nerdctl build -t foo /tmp/ctx
+ERRO[0000] `buildctl` needs to be installed and `buildkitd` needs to be running, see https://github.com/moby/buildkit  error="2 errors occurred:\n\t* failed to ping to host unix:///run/buildkit-default/buildkitd.sock: exec: \"buildctl\": executable file not found in $PATH\n\t* failed to ping to host unix:///run/buildkit/buildkitd.sock: exec: \"buildctl\": executable file not found in $PATH\n\n"
+FATA[0000] no buildkit host is available, tried 2 candidates: 2 errors occurred:
+	* failed to ping to host unix:///run/buildkit-default/buildkitd.sock: exec: "buildctl": executable file not found in $PATH
+	* failed to ping to host unix:///run/buildkit/buildkitd.sock: exec: "buildctl": executable file not found in $PATH
+
 
 
 

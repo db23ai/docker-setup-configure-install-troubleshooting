@@ -34,13 +34,13 @@ How to install buidkitd on Centos 7.9
 
     login as the root user
 
-    cd /tmp; mkdir ctx; touch Dockerfile
+    cd /tmp; mkdir ctx; cd ctx; touch Dockerfile
 
     vi Dockerfile
    
     FROM oraclelinux:8
 
-    :wq
+    :wq #Save file
    
     
     

@@ -4,13 +4,17 @@ nerdctl features and commands are almost identical as Docker CLI. nerdctl also s
 
 How to install buidkitd on Centos 7.9
 
-1. Download binaries using Firefox on Virtual Machine
+1. Download binaries using Firefox on Virtual Machine OR wget file
 
    Open Firefox Browser and copy-paste the below URL
 
    https://github.com/moby/buildkit/releases/download/v0.12.1/buildkit-v0.12.1.linux-amd64.tar.gz
 
-2. Extract binaries and move under /usr/local/bin directory
+   OR
+
+   wget https://github.com/moby/buildkit/releases/download/v0.12.1/buildkit-v0.12.1.linux-amd64.tar.gz
+
+3. Extract binaries and move under /usr/local/bin directory
 
    su - centos
 
@@ -22,7 +26,7 @@ How to install buidkitd on Centos 7.9
 
     cp -pr /home/centos/Downloads/bin/* /usr/local/bin/
 
-3. Start service buildkitd
+4. Start service buildkitd
 
     sudo buildkitd
 
@@ -30,7 +34,7 @@ How to install buidkitd on Centos 7.9
 
     nohup buildkitd  &                               
 
-4. Open new terminal and run command
+5. Open new terminal and run command
 
     login as the root user
 

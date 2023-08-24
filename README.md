@@ -49,9 +49,7 @@ How to install buidkitd on Centos 7.9
     nerdctl build -t foo /tmp/ctx
 
 
-8. Reference :  https://github.com/moby/buildkit
-
-Above solution for below Error :
+The above solution for the below Error :
 
 nerdctl build -t foo /tmp/ctx
 
